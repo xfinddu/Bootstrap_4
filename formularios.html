@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .row{
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <form>
+                    <div class="form-group">
+                        <label for="InputEmail1">Email</label>
+                        <input type="email" class="form-control" name="InputEmail1" id="InputEmail1" placeholder="Insira seu email" aria-describedby="email">
+                        <small id="emailHelp" class="form-text text-muted">Ex: SeuEmail@SeuDominio.com</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="InputSenha1">Senha</label>
+                        <input type="password" class="form-control" name="InputSenha1" id="InputSenha1" placeholder="Insira sua senha" readonly>
+                    </div>
+
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input">
+                            Manter Conectado
+                        </label>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Entrar</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <!-- Formulario Grande -->
+                <input type="text" class="form-control form-control-lg">
+                <!-- Formulario Normal -->
+                <input type="text" class="form-control">
+                <!-- Formulario Pequeno -->
+                <input type="text" class="form-control form-control-sm">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <form>
+                    <div class="form-group row">
+                        <label for="InputEmail2" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control-plaintext" name="InputEmail2" id="InputEmail2" placeholder="Insira seu email" value="MeuEmail@MeuDominio.com" readonly>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="InputSenha2" class="col-sm-2 col-form-label">Senha</label>
+                        <div class="col-10">
+                            <input type="password" class="form-control" name="InputSenha2" id="InputSenha2" placeholder="Insira sua senha">
+                        </div>
+                    </div>   
+                </form> 
+            </div>
+        </div>    
+
+        <div class="row">
+            <div class="col-12">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="nome" class="col-form-label">Nome:</label>
+                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite Seu Nome">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="sobrenome" class="col-form-label">Sobrenome:</label>
+                            <input type="text" class="form-control" id="sobrenome" name="sobrenome" placeholder="Digite Seu Sobrenome">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="end" class="col-form-label">Endereço:</label>
+                        <input type="text" class="form-control" id="end" name="end" placeholder="Digite Seu Endereço">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="cidade" class="col-form-label">Digite Sua Cidade:</label>
+                            <input type="text" class="form-control" id="cidade" name="cidade" placeholder="Digite Sua Cidade">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="estado" class="col-form-label">Digite Seu Estado:</label>
+                            <input type="text" class="form-control" id="estado" name="estado" placeholder="Digite Seu Estado">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="cep" class="col-form-label">Digite Seu CEP:</label>
+                            <input type="text" class="form-control" id="cep" name="cep" placeholder="Digite Seu CEP">
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+        <!-- Formulário em linha -->
+        <div class="row">
+            <div class="col-12">
+                <form class="form-inline">
+                    <label for="nameInline" class="sr-only">Nome</label>
+                    <input type="text" id="nameInline" class="form-control mb-2 mr-2" placeholder="Digite Seu Nome">
+
+                    <label for="senhaInline" class="sr-only">Senha</label>
+                    <input type="password" id="senhaInline" class="form-control mb-2 mr-2" placeholder="Digite Sua Senha">
+
+                    <button class="btn btn-primary">Entrar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
