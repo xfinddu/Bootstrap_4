@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem em grupo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .row{
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+                            <!-- Lista simples -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <ul class="list-group">
+                    <li class="list-group-item active">Item 1</li>
+                    <li class="list-group-item">Item 2</li>
+                    <li class="list-group-item disabled">Item 3</li>
+                    <li class="list-group-item">Item 4</li>
+                    <li class="list-group-item">Item 5</li>
+                </ul>
+            </div>
+                            <!-- Lista simples Com link -->
+            <div class="col-4">
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">Link 1</a>
+                    <a href="#" class="list-group-item list-group-item-action">Link 2</a>
+                    <a href="#" class="list-group-item list-group-item-action">Link 3</a>
+                    <a href="#" class="list-group-item disabled ">Link 4</a>
+                    <a href="#" class="list-group-item list-group-item-action">Link 5</a>
+                </div>
+            </div>
+
+                            <!-- Lista simples Com Botão -->
+            <div class="col-4">
+                <div class="list-group">
+                    <button type="button" class="list-group-item list-group-item-action active">Button 1</button>
+                    <button type="button" class="list-group-item list-group-item-action">Button 2</button>
+                    <button type="button" class="list-group-item list-group-item-action">Button 3</button>
+                    <button type="button" class="list-group-item list-group-item-action" disabled >Button 4</button>
+                    <button type="button" class="list-group-item list-group-item-action">Button 5</button>
+                </div>
+            </div>
+
+        </div>
+                            <!-- Lista simples Colorida -->
+        <div class="row">
+            <div class="col-4">
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-primary">Item 1</li>
+                    <li class="list-group-item list-group-item-secondary">Item 2</li>
+                    <li class="list-group-item list-group-item-danger">Item 3</li>
+                    <li class="list-group-item list-group-item-success">Item 4</li>
+                    <li class="list-group-item list-group-item-warning">Item 5</li>
+                </ul>
+            </div>
+                            <!-- Lista simples Com link Colorida -->
+            <div class="col-4">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-primary">Link 1</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Link 2</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Link 3</a>
+                    <a href="#" class="list-group-item list-group-item-info">Link 4</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-success">Link 5</a>
+                </div>
+            </div>
+
+                            <!-- Lista simples Com Botão Colorida -->
+            <div class="col-4">
+                <div class="list-group">
+                    <button type="button" class="list-group-item list-group-item-action list-group-item-primary">Button 1</button>
+                    <button type="button" class="list-group-item list-group-item-action list-group-item-warning">Button 2</button>
+                    <button type="button" class="list-group-item list-group-item-action list-group-item-info">Button 3</button>
+                    <button type="button" class="list-group-item list-group-item-action list-group-item-danger">Button 4</button>
+                    <button type="button" class="list-group-item list-group-item-action list-group-item-success">Button 5</button>
+                </div>
+            </div>
+        </div>
+                            <!-- Lista Complexa -->
+        <div class="row">
+            <div class="col-4">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                        <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">List group item heading</h5>
+                        <small>3 days ago</small>
+                        </div>
+                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">List group item heading</h5>
+                        <small class="text-muted">3 days ago</small>
+                        </div>
+                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">List group item heading</h5>
+                        <small class="text-muted">3 days ago</small>
+                        </div>
+                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a href="#list-home" class="list-group-item list-group-item-action active" id="list-home-list"
+                    data-toggle="list" role="tab" aria-controls="home">HOME</a>
+
+                    <a href="#list-perfil" class="list-group-item list-group-item-action" id="list-perfil-list"
+                    data-toggle="list" role="tab" aria-controls="perfil">PERFIL</a>
+
+                    <a href="#list-clientes" class="list-group-item list-group-item-action" id="list-clientes-list"
+                    data-toggle="list" role="tab" aria-controls="clientes">CLIENTES</a>
+
+                    <a href="#list-contato" class="list-group-item list-group-item-action" id="list-contato-list"
+                    data-toggle="list" role="tab" aria-controls="contato">CONTATO</a>
+                </div>
+            </div>
+
+            <div class="col-9">
+                <div class="tab-content" id="nav-tabContent">
+                    <div id="list-home" class="tab-pane fade show active" role="tabpane" aria-labelledby="list-home-list">
+                        <h3>Home</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio blanditiis eveniet veniam eos repellendus nam accusantium porro,
+                        expedita debitis, quisquam eum facilis? Facilis eaque itaque maiores officia possimus recusandae. Quisquam?Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Consequatur eius illo, modi quibusdam exercitationem voluptatum,
+                        facilis molestias sequi perspiciatis, esse laudantium reiciendis dolorum non quis nihil pariatur voluptatibus dicta illum?</p>
+                    </div>
+
+                    <div id="list-perfil" class="tab-pane fade" role="tabpane" aria-labelledby="list-perfil-list">
+                        <h3>Perfil</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio blanditiis eveniet veniam eos repellendus nam accusantium porro,
+                        expedita debitis, quisquam eum facilis? Facilis eaque itaque maiores officia possimus recusandae. Quisquam?Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Consequatur eius illo, modi quibusdam exercitationem voluptatum,
+                        facilis molestias sequi perspiciatis, esse laudantium reiciendis dolorum non quis nihil pariatur voluptatibus dicta illum?</p>
+                    </div>
+
+                    <div id="list-clientes" class="tab-pane fade" role="tabpane" aria-labelledby="list-clientes-list">
+                        <h3>Clientes</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio blanditiis eveniet veniam eos repellendus nam accusantium porro,
+                        expedita debitis, quisquam eum facilis? Facilis eaque itaque maiores officia possimus recusandae. Quisquam?Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Consequatur eius illo, modi quibusdam exercitationem voluptatum,
+                        facilis molestias sequi perspiciatis, esse laudantium reiciendis dolorum non quis nihil pariatur voluptatibus dicta illum?</p>
+                    </div>
+
+                    <div id="list-contato" class="tab-pane fade" role="tabpane" aria-labelledby="list-contato-list">
+                        <form>
+                            <div class="form-group">
+                                <label for="nome">Nome</label>
+                                <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite seu nome">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="assunto">Assunto</label>
+                                <input type="text" class="form-control" name="assunto" id="assunto" placeholder="Digite o Assunto">
+                            </div>
+
+                                <div class="form-group">
+                                    <label for="conteudo">Conteudo</label>
+                                    <textarea class="form-control" name="conteudo" id="conteudo" cols="30" rows="10"></textarea>
+                                </div>
+                                <button class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
