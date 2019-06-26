@@ -1,0 +1,392 @@
+-----------------------------------------------------------
+                    LEIA NO BLOCO DE NOTAS
+-----------------------------------------------------------
+
+
+	Tipografia
+
+Cabe�alho -
+
+<h1>  ao <h6>
+
+-----------------------------------------------------------
+
+Titulo de exibi��o normal Com texto secundario desbotado
+
+<h3>
+  T�tulo de exibi��o normal
+  <small class="text-muted">Com texto secund�rio desbotado</small>
+</h3>
+
+-----------------------------------------------------------
+
+Cabe�alhos em Display -
+
+<h1 class="display-1">Display 1</h1>
+
+-----------------------------------------------------------
+
+Lead - par�grafo com destaque
+
+<p class="lead">
+  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+</p>
+
+-----------------------------------------------------------
+
+Elementos de texto em linha -
+
+<p>Voc� pode usar a <mark>marca</mark> para real�ar o texto.</p>
+<p><del>Esta linha de texto deve ser tratada como texto exclu�do.</del></p>
+<p><s>Esta linha de texto deve ser tratada como texto n�o utilizado.</s></p>
+<p><ins>Esta linha de texto deve ser tratada como algo al�m do documento.</ins></p>
+<p><u>Esta linha de texto ser� renderizada como sublinhada</u></p>
+<p><small>Esta linha de texto deve ser tratada como impress�o fina.</small></p>
+<p><strong>Esta linha foi processada como texto em negrito.</strong></p>
+<p><em>Esta linha foi processada em um texto it�lico.</em></p>
+
+-----------------------------------------------------------
+
+Layout inverso - 
+
+<blockquote class="blockquote blockquote-reverse">
+  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+  <footer class="blockquote-footer">Algu�m famoso no <cite title="Titulo do C�digo">Titulo do C�digo</cite></footer>
+</blockquote>
+
+-----------------------------------------------------------
+
+Mudan�as na Vers�o Beta 2 -
+
+a classe blockquote-reverse foi retirada da vers�o Beta 2 e agora devemos utilizar da seguinte forma:
+
+<blockquote class="blockquote text-right">
+  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+  <footer class="blockquote-footer">Uma cita��o famosa no<cite title="Titulo do C�digo">T�tulo do C�digo</cite></footer>
+</blockquote>
+
+-----------------------------------------------------------
+
+Listas -
+
+Unstyled - Remova o estilo e a margem esquerda nos itens da lista (apenas nos filhos imediatos), o que significa 
+que voc� precisar� adicionar a classe para todas as listas aninhadas tamb�m.
+
+<ul class="list-unstyled">
+  <li>Lorem ipsum dolor sit amet</li>
+  <li>Consectetur adipiscing elit</li>
+  <li>Integer molestie lorem at massa</li>
+  <li>Facilisis in pretium nisl aliquet</li>
+  <li>Nulla volutpat aliquam velit
+    <ul>
+      <li>Phasellus iaculis neque</li>
+      <li>Purus sodales ultricies</li>
+      <li>Vestibulum laoreet porttitor sem</li>
+      <li>Ac tristique libero volutpat at</li>
+    </ul>
+  </li>
+  <li>Faucibus porta lacus fringilla vel</li>
+  <li>Aenean sit amet erat nunc</li>
+  <li>Eget porttitor lorem</li>
+</ul>
+
+-----------------------------------------------------------
+
+Inline (em linha) -
+
+Remove os bullets da lista e aplica uma margem com a combina��o de duas classes:
+.list-inline e .list-inline-item.
+
+<ul class="list-inline">
+  <li class="list-inline-item">Lorem ipsum</li>
+  <li class="list-inline-item">Phasellus iaculis</li>
+  <li class="list-inline-item">Nulla volutpat</li>
+</ul>
+
+-----------------------------------------------------------
+
+	C�digos -
+
+C�digo Inline - Envolva os fragmentos de c�digo com a tag <code> . Certifique-se de usar os escapes HTML.
+Por Exemplo <section> envolvido inline
+
+<code>&lt;section&gt;</code>envolvido inline
+
+-----------------------------------------------------------
+
+Blocos de C�digo Multilinhas -
+
+Use <pre> para m�ltiplas linhas de c�digo. Mais uma vez, certifique-se de usar os escapes HTML para renderiza��o correta do seu destaque.
+Opcionalmente voc� pode utilizar a classe .pre-scrollable , para definir uma altura m�xima ao seu bloco de 350px e oferecer 
+uma barra de rolagem no eixo y.
+
+-----------------------------------------------------------
+
+Vari�veis -
+
+Para vari�veis o indicado � usar a tag <var> .
+
+Ex: y=mx+b
+
+<var>y</var> =<var>m</var><var>x</var> + <var>b</var>
+
+-----------------------------------------------------------
+
+Amostra -
+
+Para indicar o resultado de uma amostra de um programa, use a tag <samp>.
+
+<samp>Este texto deve ser tratado como um exemplo.</samp>
+
+-----------------------------------------------------------
+
+	Imagens
+
+Imagem responsiva -
+
+<img src="" alt="" class="img-fluid">
+
+<img src="" alt="" class="img-thumbnail">
+
+<img src="" alt="" class="img-thumbnail rounded">
+
+float-right ou left
+
+Deixar No Centro = mx-auto d-block
+
+-----------------------------------------------------------
+
+	Figures
+
+Sempre que precisar exibir um peda�o de texto junto a uma imagem, como por exemplo em uma legenda, considere usar uma tag <figure>.
+Use as classes .figure , .figure-img e .figure-caption para fornecer estilos do Bootstrap  as tags <figure> e <figcaption> do HTML5.
+As imagens constantes na tag figure n�o possuem um tamanho pr� determinado, portanto certifique-se de usar a classe .img-fluid no elemento <img> 
+para obter a responsividade nas imagens.
+
+
+<figure class="figure">
+  <img src="..." class="figure-img img-fluid rounded" alt="Uma imagem de espa�o reservado quadrada, gen�rica e com cantos arredondados.">
+  <figcaption class="figure-caption">Uma legenda para a imagem acima.</figcaption>
+</figure>
+
+-----------------------------------------------------------
+
+Voc� tamb�m pode mudar o alinhamento da legenda atrav�s de um Utilit�rio de Texto.
+
+<figure class="figure">
+  <img src="..." class="figure-img img-fluid rounded" alt="Uma imagem de espa�o reservado quadrada, gen�rica e com cantos arredondados.">
+  <figcaption class="figure-caption text-right">Uma legenda para a imagem acima.</figcaption>
+</figure>
+
+-----------------------------------------------------------
+
+	ClearFix
+
+<div class="bg-info clearfix">
+  <button class="btn btn-secondary float-left">Exemplo de Bot�o flutuando para esquerda</button>
+  <button class="btn btn-secondary float-right">Exemplo de Bot�o flutuando para direita</button>
+</div>
+
+	Bot�o de Fechar
+
+<button type="button" class="close" aria-label="Fechar">
+  <span aria-hidden="true">�</span>
+</button>
+
+-----------------------------------------------------------
+
+	Display
+
+O Bootstrap inclui suporte para alguns dos valores mais comuns de displays, bem como alguns extras para controlar a exibi��o durante a impress�o.
+
+Voc� pode usar as classes abaixo para modificar o display:
+
+.d-none
+.d-inline
+.d-inline-block
+.d-block
+.d-table
+.d-table-cell
+.d-flex
+.d-inline-flex
+
+Adicione-as para um elemento para modificar sua visualiza��o.
+
+Voc� pode tamb�m modificar o display de um elemento para cada viewport utilizando as classes auxiliares abaixo:
+
+.d-none
+.d-inline
+.d-inline-block
+.d-block
+.d-table
+.d-table-cell
+.d-flex
+.d-inline-flex
+.d-sm-none
+.d-sm-inline
+.d-sm-inline-block
+.d-sm-block
+.d-sm-table
+.d-sm-table-cell
+.d-sm-flex
+.d-sm-inline-flex
+.d-md-none
+.d-md-inline
+.d-md-inline-block
+.d-md-block
+.d-md-table
+.d-md-table-cell
+.d-md-flex
+.d-md-inline-flex
+.d-lg-none
+.d-lg-inline
+.d-lg-inline-block
+.d-lg-block
+.d-lg-table
+.d-lg-table-cell
+.d-lg-flex
+.d-lg-inline-flex
+.d-xl-none
+.d-xl-inline
+.d-xl-inline-block
+.d-xl-block
+.d-xl-table
+.d-xl-table-cell
+.d-xl-flex
+.d-xl-inline-flex
+
+Display na Impress�o
+
+Voc� pode alterar o valor do displaynos elementos ao imprimir com os utilit�rios de exibi��o de impress�o.
+
+.d-print-block 
+.d-print-inline
+.d-print-inline-block 
+.d-print-none 
+
+-----------------------------------------------------------
+
+	Float
+
+Voc� pode flutuar um elemento em qualquer breakpoint com uso dos utilit�rios responsivos.
+Essas classes de utilit�rio flutuam um elemento para a esquerda ou para a direita, ou desativam a flutua��o,
+com base no tamanho do viewport atual. Eles usam os mesmos pontos de interrup��o do viewport como no sistema de grid.
+
+<div class="float-left">Float left on all viewport sizes</div><br>
+<div class="float-right">Float right on all viewport sizes</div><br>
+<div class="float-none">Don't float on all viewport sizes</div>
+
+Varia��es responsivas tamb�m existem para cada valor do float.
+
+<div class="float-sm-left">Float left on viewports sized SM (small) or wider</div><br>
+<div class="float-md-left">Float left on viewports sized MD (medium) or wider</div><br>
+<div class="float-lg-left">Float left on viewports sized LG (large) or wider</div><br>
+<div class="float-xl-left">Float left on viewports sized XL (extra-large) or wider</div><br>
+
+Aqui est�o todas as classes de suporte para o float:
+
+.float-left
+.float-right
+.float-none
+.float-sm-left
+.float-sm-right
+.float-sm-none
+.float-md-left
+.float-md-right
+.float-md-none
+.float-lg-left
+.float-lg-right
+.float-lg-none
+.float-xl-left
+.float-xl-right
+.float-xl-none
+
+-----------------------------------------------------------
+
+Posi��o
+
+Voc� pode usar este utilit�rio para configurar rapidamente a posi��o de um elemento.
+
+Topo Fixo
+
+Posicione um elemento no topo da viewport, de uma borda a outra. Pode ser seja necess�rio adicionar CSS adicionais para manipular os conte�dos da p�gina.
+
+<div class="fixed-top">...</div>
+
+Rodap� Fixo
+
+Posicione um elemento na parte inferior da viewport, de uma borda a outra.  Pode ser seja necess�rio adicionar CSS adicionais para manipular os conte�dos da p�gina.
+
+<div class="fixed-bottom">...</div>
+
+Topo Sticky
+
+Posicione um elemento na parte superior da viewport, de uma borda a outra, mas somente depois de percorr�-lo.
+O .sticky-top utilit�rio usa CSS position: sticky, que n�o � totalmente suportado em todos os navegadores.
+
+Microsoft Edge e IE11 renderizar�o position: stickycomo position: relative. Como tal, o Bootstrap envolve os estilos em uma consulta @supports, 
+limitando a ader�ncia a apenas navegadores que podem ser adequadamente processados.
+
+<div class="sticky-top">...</div>
+
+-----------------------------------------------------------
+
+	Screenreaders
+
+O Bootstrap nos permite adicionar elementos que s� ser�o vis�veis em tecnologias assistidas, como os leitores de tela. 
+
+Para ocultar um elemento para todos os dispositivos, exceto os leitores de tela usamos .sr-only.
+Combine .sr-only e .sr-only-focusable para mostrar o elemento novamente quando estiver focado (por exemplo, por um usu�rio que usa apenas o teclado). 
+
+<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+-----------------------------------------------------------
+
+	Alinhamento vertical
+
+Voc� pode facilmente realizar o alinhamento vertical de elementos no Bootstrap tais como: inline, inline-block, inline-table e table. 
+
+� importante saber que o alinhamento vertical afeta apenas os elementos  inline, inline-block, inline-table e as c�lulas da table.
+
+As op��es dispon�veis s�o: .align-baseline, .align-top, .align-middle, .align-bottom, .align-text-bottom, e .align-text-top, utiliza conforme necess�rio.
+
+Exemplos:
+
+<span class="align-baseline">baseline</span>
+<span class="align-top">top</span>
+<span class="align-middle">middle</span>
+<span class="align-bottom">bottom</span>
+<span class="align-text-top">text-top</span>
+<span class="align-text-bottom">text-bottom</span>
+
+Exemplos de uso nas c�lulas de uma tabela:
+
+<table style="height: 100px;">
+  <tbody>
+    <tr>
+      <td class="align-baseline">baseline</td>
+      <td class="align-top">top</td>
+      <td class="align-middle">middle</td>
+      <td class="align-bottom">bottom</td>
+      <td class="align-text-top">text-top</td>
+      <td class="align-text-bottom">text-bottom</td>
+    </tr>
+  </tbody>
+</table>
+
+-----------------------------------------------------------
+
+	Visibilidade
+
+Voc� pode controlar a visibilidade de um elemento, sem modificar a exibi��o, com os utilit�rios de visibilidade.
+
+Eles s�o �teis para ocultar o conte�do da maioria dos usu�rios, mas ainda mantendo-os para os leitores de tela.
+
+Aplique .visible ou, .invisible conforme necess�rio:
+
+<div class="visible">...</div>
+<div class="invisible">...</div>
+
+-----------------------------------------------------------
+
+

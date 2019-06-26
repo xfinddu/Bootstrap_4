@@ -1,0 +1,31 @@
+-----------------------------------------------------------
+                    LEIA NO BLOCO DE NOTAS
+-----------------------------------------------------------
+
+
+Exemplo Site Bootstrap
+
+<li class="nav-item dropdown">
+
+	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	Dropdown link
+	</a>
+		<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			<a class="dropdown-item" href="#">Action</a>
+			<a class="dropdown-item" href="#">Another action</a>
+			<a class="dropdown-item" href="#">Something else here</a>
+		</div>
+</li>
+
+
+Meu Exemplo
+
+<li class=" nav-item dropdown">
+ 
+	<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" >Minha Conta</a>
+
+		<ul class="dropdown-menu" >
+			<li class="nav-item"> <a href="#" class="nav-link" >Editar</a> </li>
+			<li class="nav-item"> <a href="#" class="nav-link" >Logout</a> </li>
+		</ul>
+</li>
