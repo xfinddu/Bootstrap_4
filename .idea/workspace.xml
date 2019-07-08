@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d246a66-483a-4cb8-af56-e08e07bccb6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dashboard/cards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dashboard/tabelas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnePage/css/estilo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnePage/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dashboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dashboard/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dashboard/bibliotecas/datatables/jquery.dataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/Dashboard/bibliotecas/datatables/jquery.dataTables.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,26 +21,33 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dashboard/recuperar_senha.html">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OnePage/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            <state relative-caret-position="399">
+              <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Dashboard/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OnePage/css/estilo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="217" column="64" lean-forward="true" selection-start-line="217" selection-start-column="64" selection-end-line="217" selection-end-column="64" />
+            <state relative-caret-position="646">
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bread</find>
+      <find>olangua</find>
+      <find>oLanguage</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,6 +58,11 @@
         <option value="$PROJECT_DIR$/Dashboard/recuperar_senha.html" />
         <option value="$PROJECT_DIR$/Dashboard/registro.html" />
         <option value="$PROJECT_DIR$/Dashboard/index.html" />
+        <option value="$PROJECT_DIR$/Dashboard/cards.html" />
+        <option value="$PROJECT_DIR$/Dashboard/tabelas.html" />
+        <option value="$PROJECT_DIR$/Dashboard/bibliotecas/datatables/jquery.dataTables.js" />
+        <option value="$PROJECT_DIR$/OnePage/css/estilo.css" />
+        <option value="$PROJECT_DIR$/OnePage/index.html" />
       </list>
     </option>
   </component>
@@ -67,6 +83,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -77,13 +94,18 @@
             <path>
               <item name="Bootstrap_4" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bootstrap_4" type="462c0819:PsiDirectoryNode" />
-              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="OnePage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bootstrap_4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bootstrap_4" type="462c0819:PsiDirectoryNode" />
+              <item name="OnePage" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -127,17 +149,20 @@
       <workItem from="1561997924607" duration="2235000" />
       <workItem from="1562002486418" duration="2524000" />
       <workItem from="1562006556049" duration="2203000" />
+      <workItem from="1562247460895" duration="3830000" />
+      <workItem from="1562602665334" duration="660000" />
+      <workItem from="1562603518553" duration="4433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11608000" />
+    <option name="totallyTimeSpent" value="20531000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19364598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19989339" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -185,8 +210,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dashboard/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="217" column="64" lean-forward="true" selection-start-line="217" selection-start-column="64" selection-end-line="217" selection-end-column="64" />
+        <state relative-caret-position="759">
+          <caret line="283" column="7" selection-start-line="283" selection-start-column="7" selection-end-line="283" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dashboard/cards.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="264" selection-start-line="264" selection-end-line="265" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dashboard/tabelas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="772" column="33" selection-start-line="772" selection-start-column="33" selection-end-line="772" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dashboard/bibliotecas/datatables/jquery.dataTables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11835" column="25" selection-start-line="11835" selection-start-column="25" selection-end-line="11835" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnePage/css/estilo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnePage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
         </state>
       </provider>
     </entry>

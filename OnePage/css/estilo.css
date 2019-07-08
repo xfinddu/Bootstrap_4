@@ -1,0 +1,40 @@
+/*Configurações do topo*/
+.bg-topo{
+    background-color: #68627a;
+}
+
+.btn-orcamento{
+    border: 2px solid #ffffff;
+    background: none;
+    position: relative;
+    color: #ffffff;
+    z-index: 1;
+    border-radius: 30px;
+    height: 100%;
+}
+
+.btn-orcamento:hover{
+    color: #68627a;
+    background: #ffffff;
+    border-color: #ffffff;
+    transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -webkit-transition: all .50s ease-in-out;
+}
+
+/*Seção de serviços*/
+.bg-servicos{
+    background: linear-gradient(131.26deg,#312b45 30%, #ff3859 100%);
+}
+
+
+/*Configurações gerais*/
+
+.underline{
+    content: '';
+    border-top: 2px solid #ff3859;
+    width: 70px;
+    display: block;
+    margin-bottom: 8px;
+    margin: 0 auto;
+}

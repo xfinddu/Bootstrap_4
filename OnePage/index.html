@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>One Page</title>
+
+<!-- CSS Bootstrap -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!-- CSS Personalizada -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+</head>
+<body>
+    <!-- Topo -->
+    <div class="container-fluid bg-topo">
+        <header class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a href="#" class="navbar-brand">
+                    <img src="img/logo.png" height="70"  class="d-inline-block align-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
+                aria-controls="menu" aria-expanded="false" aria-label="Menu Colapso">
+                    <span class="navbar-toggler-icon text-light"></span>
+                </button>
+                <div id="menu" class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto text-light">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light font-weight-bold">Serviços</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light font-weight-bold">Parceiros</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light font-weight-bold">Cursos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light font-weight-bold">Contato</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn col-md-3 btn-orcamento">Pedir um orçamento</a>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <!-- Slide Show -->
+    <div class="container-fluid my-2">
+        <div id="slideshow" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                <li data-target="#slideshow" data-slide-to="1"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="#">
+                        <img src="img/banner1.jpg" class="d-block w-100" alt="Primeiro Slide">
+                    </a>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="#">
+                        <img src="img/banner2.jpg" class="d-block w-100" alt="Segundo Slide">
+                    </a>
+                </div>
+            </div>
+
+            <a href="#slideshow" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+
+            <a href="#slideshow" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Proximo</span>
+            </a>
+        </div>
+    </div>
+    <!-- Seção de serviços -->
+    <div class="container-fluid bg-servicos">
+        <div class="mt-2 py-4">
+            <section class="container">
+                <header class="col-md-12">
+                    <h2 class="text-center text-light">O que fazemos?
+                        <span class="underline"></span>
+                    </h2>
+                </header>
+                <div class="row py-4">
+                    <div class="col-md-4">
+                        <img src="img/img1.png" class="img-fluid">
+                        <p class="text-center text-light mt-2">Criação de websites responsivos</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="img/img2.png" class="img-fluid">
+                        <p class="text-center text-light mt-2">Criação de aplicativos android</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="img/img3.png" class="img-fluid">
+                        <p class="text-center text-light mt-2">Otimização de sites na Web</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Js Bootstrap -->
+<script  type="text/javascript" src="js/jquery.min.js"></script>
+<script  type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
