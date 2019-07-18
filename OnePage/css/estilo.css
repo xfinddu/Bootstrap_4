@@ -99,7 +99,67 @@
     margin-bottom: 20px;
 }
 
-.tabela-preco .preco-detalhe ul
+.tabela-preco .preco-detalhe ul{
+    margin-bottom: 35px;
+    padding: 0 !important;
+}
+
+.tabela-preco .preco-detalhe ul li{
+    padding: 10px;
+    font-size: 15px;
+    border-bottom: 1px dotted #f1f1f1;
+    list-style: none;
+}
+
+.btn-preco{
+    border: 1px solid #ff3859;
+    background-color: #ff3859;
+    position: relative;
+    color: #ffffff;
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.btn-preco:hover{
+    color: #ffffff;
+    background: #4c465f;
+    border-color: #4c465f;
+    transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -webkit-transition: all .50s ease-in-out;
+
+
+}
+
+/* Rodapé */
+
+.bg-rodape1{
+    background-color: #312b45;
+}
+
+.bg-rodape1 ul{
+    -webkit-padding-start: 0;
+}
+
+.bg-rodape1 ul li{
+    list-style: none;
+}
+
+.bg-card-rodape{
+    background-color: #ff3859;
+}
+
+.icon-banner-rodape{
+    color: #c42841;
+}
+
+.bg-rodape2{
+    background-color: #4c465f;
+}
+
+a.icone-social{
+    color: #b3aec2;
+}
 
 /*Configurações gerais*/
 
@@ -110,6 +170,14 @@
     display: block;
     margin-bottom: 8px;
     margin: 0 auto;
+}
+
+.underline-footer{
+    content: '';
+    border-top: 2px solid #ff3859;
+    width: 100px;
+    display: block;
+    margin-top: 5px;
 }
 
 .sombra:hover{
